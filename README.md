@@ -1,1 +1,21 @@
 # UnityScripts
+
+This is a bunch of Unity C# scripts I’ve written while learning game development.  
+I keep them here so I can reuse them later or share them with others who might find them helpful.
+
+## What’s Inside
+-
+-
+-
+
+## Why I Made This
+To have all useful Unity scripts in one place. It's also a way to track my own progress. I'll keep adding new stuff as I learn more.
+
+## How To Use
+1. Download or copy a script you need.
+2. Drop it into your Unity project.
+3. Attach it to an object in your scene.
+4. Adjust the variables.
+
+## License
+This project uses **MIT license** - you can use the code freely, just keep a small credit somwhere.
