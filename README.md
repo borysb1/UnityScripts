@@ -4,7 +4,7 @@ This is a bunch of Unity 2D C# scripts I’ve written while learning game develo
 I keep them here so I can reuse them later or share them with others who might find them helpful.
 
 ## What’s Inside
-- Player Movement
+- Player Movement (Note: remember to adjust Ground Check Distance in Collision Details to your object)
 -
 -
 
