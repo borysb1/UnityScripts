@@ -17,5 +17,4 @@ To have all useful Unity scripts in one place. It's also a way to track my own p
 3. Attach it to an object in your scene.
 4. Adjust the variables.
 
-## License
-This project uses **MIT license** - you can use the code freely, just keep a small credit somewhere.
+
