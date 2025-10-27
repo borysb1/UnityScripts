@@ -12,16 +12,23 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     private bool isGrounded;
 
+    [Header("Jump settings")]
+    [SerializeField] private int maxJumps = 2;
+    private int jumpCount;
+    private bool wasGroundedPrev;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+    
 
     private void Update()
     {
         HandleColission();
         HandleInput();
         HandleMovement();
+        
     }
 
     private void HandleInput()
@@ -31,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+        
     }
     private void HandleMovement()
     {
@@ -38,14 +46,21 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Jump()
     {
-        if (isGrounded)
+        
+        if (isGrounded || jumpCount < maxJumps)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpCount++;
         }
     }
     private void HandleColission()
     {
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, whatIsGround);
+        
+        if (isGrounded && !wasGroundedPrev)
+        {
+            jumpCount = 0;
+        }
     }
     private void OnDrawGizmos()
     {
