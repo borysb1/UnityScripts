@@ -5,7 +5,7 @@ I keep them here so I can reuse them later or share them with others who might f
 
 ## What’s Inside
 - Player Movement (Note: remember to adjust Ground Check Distance in Collision Details to your object)
--
+- Player Movement with double jump (same as Player Movement but with double jump mechanic)
 -
 
 ## Why I Made This
