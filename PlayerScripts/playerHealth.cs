@@ -52,7 +52,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Gracz zgin¹³!");
+        //Debug.Log("Gracz zgin¹³!");
         Respawn();
     }
     void Respawn()
