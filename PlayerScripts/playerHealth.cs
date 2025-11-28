@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
     public Transform spawnPoint;
 
     [Header("Obra¿enia od kolców")]
-    public float damageCooldown = 1f; // przerwa miêdzy obra¿eniami
+    public float damageCooldown = 1f; 
     private float lastDamageTime = 0f;
 
     void Start()
