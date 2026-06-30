@@ -10,6 +10,7 @@ I keep them here so I can reuse them later or share them with others who might f
 - **Player Health** *(Change colliders tag to "Trap")*
 - **Text Writer** *(Keyboard typing text display)*
 - **Scene Loader** *(After player collides with an object, next scene is loaded)*
+- **Timer** *(5.27s = 'TIME: 00:05.27')*
 
 ## Why I Made This
 To have all useful Unity scripts in one place. It's also a way to track my own progress. I'll keep adding new stuff as I learn more.
