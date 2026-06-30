@@ -8,7 +8,7 @@ I keep them here so I can reuse them later or share them with others who might f
 - **Player Movement with double jump** *(same as Player Movement but with double jump mechanic)*
 - **Camera Follow** *(Remember to attach the script to the camera and place Player Object in target. Also offset z should be negative. Set Interpolate in player's Rigidbody2D component to Interpolate.)*
 - **Player Health** *(Change colliders tag to "Trap")*
-- **Text Writer**
+- **Text Writer** *(Keyboard typing text display)*
 - **Scene Loader** *(After player collides with an object, next scene is loaded)*
 
 ## Why I Made This
